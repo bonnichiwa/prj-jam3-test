@@ -59,12 +59,12 @@ module.exports = {
       /* Webpack used in production */
 
       // Duplicate package alert
-      config.plugins.push(
-        new DuplicatePackageCheckerPlugin({
-          verbose: true,
-          emitError: true
-        })
-      );
+      // config.plugins.push(
+      //   new DuplicatePackageCheckerPlugin({
+      //     verbose: true,
+      //     emitError: true
+      //   })
+      // );
 
       // Compress images - png, jpg, svg
       config = rewireImageminPlugin(config, env, {
