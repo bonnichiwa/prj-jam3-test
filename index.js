@@ -10,7 +10,7 @@ const globs = [
   { base: 'templates/', glob: 'scripts/**/*', template: false },
   { base: 'templates/', glob: 'src/**/*', template: false },
   { base: 'templates/', glob: 'test/**/*', template: false },
-  { base: 'templates/', glob: '*', template: false },
+  { base: 'templates/', glob: '*', template: false }
 ];
 
 const generator = nyg(null, globs)
